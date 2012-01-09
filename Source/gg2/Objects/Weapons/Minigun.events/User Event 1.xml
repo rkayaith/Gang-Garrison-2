@@ -14,7 +14,7 @@
       <appliesTo>.self</appliesTo>
       <arguments>
         <argument kind="STRING">{
-    if(readyToShoot &amp;&amp; ammoCount &gt;= 3)
+    if(readyToShoot &amp;&amp; ammoCount &gt;= 3) {
         isRefilling = false;
         alarm[5] = reloadBuffer;
         playsound(x,y,ChaingunSnd);
